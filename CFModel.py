@@ -27,6 +27,6 @@ class CFModel(Sequential):
         # The Merge layer takes the dot product of user and movie latent factor vectors to return the corresponding rating.
         self.add(Merge([P, Q], mode='dot', dot_axes=1))
 
-    # The rate function to predict user's rating of unrated items
+    # The rate function to predict user's rating of unrated items based on the things they rated  
     def rate(self, user_id, item_id):
         return self.predict([np.array([user_id]), np.array([item_id])])[0][0]
