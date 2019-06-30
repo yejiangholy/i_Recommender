@@ -12,7 +12,7 @@ An accompanied Medium blog post has been written up and can be viewed here: [The
 
 ## Requirements
 
-* [Python 2.7](https://www.python.org/download/releases/2.7/) or [Python 3.6](https://www.python.org/downloads/release/python-360/)
+* [Python 3.6](https://www.python.org/downloads/release/python-360/)
 * [Jupyter Notebook](http://jupyter.org/)
 
 ## Dependencies
